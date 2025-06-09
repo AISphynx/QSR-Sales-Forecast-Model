@@ -1,0 +1,24 @@
+Methodology for QSR Sales Forecast Model
+
+Objective
+
+Create a predictive model to forecast daily and hourly sales for QSR locations, supporting production planning and staffing decisions.
+
+Approach
+
+1. Data Preprocessing: Clean and align historical sales data (store_id, date, time, quantity_sold), filtering anomalies like store closures.
+2. Feature Engineering: Explore predictors such as lagged sales, 7-day rolling averages, holidays, and day of week.
+3. Model Development: Use time series techniques (e.g., ARIMA) or machine learning (e.g., XGBoost) for hourly/daily forecasts.
+4. Evaluation: Assess accuracy with MAPE, aiming for <10% for daily and <12% for hourly predictions.
+5. Deliverables: Exportable forecasts (CSV), documentation, and optional Power BI dashboard.
+
+Tools
+
+- Python (Pandas, Scikit-learn)
+- R (for statistical analysis)
+- Power BI (visualization)
+
+Next Steps
+
+- Expand dataset with real data.
+- Implement and test forecasting models.
